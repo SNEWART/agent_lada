@@ -77,17 +77,9 @@ class AgentLada:
             self.logger=Logger(
                 "lada/logs"
             )
-            self.data_dir=Path(f"./faiss_data/{self.user_id}")
-            self.texts_dir=Path(f"./texts/{self.user_id}")
-
-            self.data_dir.mkdir(
-                parents=True,
-                exist_ok=True
-            )
-            self.texts_dir.mkdir(
-                parents=True,
-                exist_ok=True
-            )
+            self.data_dir = Path(f"./faiss_data/{self.user_id}")
+            self.texts_dir = Path(r"C:\Users\scvol\Desktop\rag-simple")
+            self.data_dir.mkdir(parents=True, exist_ok=True)
             self.chat_file=self.data_dir/"chat_history.json"
             self.index_path=self.data_dir/"index.faiss"
             self.ids_path=self.data_dir/"ids.json"
@@ -152,12 +144,19 @@ class AgentLada:
             print("Embedding:",e)
             return None
     def load_documents(self):
-        self.document_store={}
-        for p in self.texts_dir.glob("*.txt"):
+        self.document_store = {}
+        if not self.texts_dir.exists():
+            print(f"Папка с документами не найдена: {self.texts_dir}")
+            return
+
+        # Берём все .txt файлы, включая подпапки
+        for p in self.texts_dir.rglob("*.txt"):
             try:
-                self.document_store[p.stem]=p.read_text(encoding="utf-8")
+                # Используем относительный путь как ключ, чтобы не было конфликтов имён
+                key = str(p.relative_to(self.texts_dir)).replace("\\", "/")
+                self.document_store[key] = p.read_text(encoding="utf-8", errors="ignore")
             except Exception as e:
-                print("Document:",p,e)
+                print("Document:", p, e)
     def load_index(self):
         if self.index_path.exists():
             try:
