@@ -1,0 +1,126 @@
+
+============================================================
+TIME: 2026-07-24T06:54:59
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T06:57:36
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T12:26:48
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T12:29:17
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T12:32:09
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T14:57:42
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T14:58:49
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+TIME: 2026-07-24T21:48:13
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T21:48:13
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: name 'user_name' is not defined
+
+============================================================
+TIME: 2026-07-24T22:01:41
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:01:41
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:45:36
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:47:17
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:50:03
+TYPE: error
+
+[MESSAGE]
+Fact extraction error: HTTPConnectionPool(host='localhost', port=1234): Max retries exceeded with url: /v1/chat/completions (Caused by ReadTimeoutError("HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=40)"))
+
+============================================================
+TIME: 2026-07-24T22:51:36
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:52:45
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:53:45
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions
+
+============================================================
+TIME: 2026-07-24T22:54:26
+TYPE: error
+
+[MESSAGE]
+Generation error (snewart): 400 Client Error: Bad Request for url: http://localhost:1234/v1/chat/completions

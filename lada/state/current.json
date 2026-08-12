@@ -1,0 +1,10 @@
+{
+    "status": "online",
+    "current_activity": "conversation",
+    "current_topic": "",
+    "last_user_message": "",
+    "last_reply": "",
+    "last_update": "",
+    "thinking": false,
+    "sleeping": false
+}

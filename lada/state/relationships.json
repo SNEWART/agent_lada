@@ -1,0 +1,26 @@
+{
+    "snewart": {
+        "trust": 50,
+        "respect": 50,
+        "sympathy": 50,
+        "attachment": 0,
+        "interest": 98,
+        "irritation": 0
+    },
+    "koshenya": {
+        "trust": 50,
+        "respect": 50,
+        "sympathy": 50,
+        "attachment": 0,
+        "interest": 50,
+        "irritation": 0
+    },
+    "troy": {
+        "trust": 50,
+        "respect": 50,
+        "sympathy": 50,
+        "attachment": 0,
+        "interest": 51,
+        "irritation": 0
+    }
+}

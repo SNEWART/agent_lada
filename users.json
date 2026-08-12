@@ -1,0 +1,32 @@
+{
+    "snewart": {
+        "username": "SNEWART",
+        "password_hash": "$2b$12$TvWemiPAEwwUYkBGt4v8IetWaZqBJ88rouZ4oH6GfIbcmMQK4JQQi",
+        "created_at": "2026-07-09T11:58:50.378941"
+    },
+    "пожилой_ассистент": {
+        "username": "Пожилой ассистент ",
+        "password_hash": "$2b$12$bdklitCU4jepMmUgNqFx.u2iNEQvuH0PmWhmlRS.Ung61c4o7h8SW",
+        "created_at": "2026-07-09T16:55:05.322515"
+    },
+    "dienix": {
+        "username": "Dienix",
+        "password_hash": "$2b$12$1bDiQ3GDPVIzmaWFFLgsQeYM5hge4in54B9Kk7P3qQIw46WafBk3G",
+        "created_at": "2026-07-09T18:13:24.524211"
+    },
+    "dienix1": {
+        "username": "Dienix1",
+        "password_hash": "$2b$12$qikyDmwJmHECn3RFbFvV7.r18UZfiqRBGOqLOGt9S0VBlf68R6GkK",
+        "created_at": "2026-07-09T19:00:12.419907"
+    },
+    "koshenya": {
+        "username": "Koshenya",
+        "password_hash": "$2b$12$jCsu0iUzxDbMfXcd2so88.vq/9hPYfz6CvsiVscWBG21YSx2zcNsq",
+        "created_at": "2026-07-23T18:15:53.834124"
+    },
+    "troy": {
+        "username": "troy",
+        "password_hash": "$2b$12$bKsWaMXlYWCR3P6asCBgcej8oSCqW4W/oWaIhfcUB4y.5HsiGYa0G",
+        "created_at": "2026-07-27T15:03:54.717068"
+    }
+}
